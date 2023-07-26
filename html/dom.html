@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM in JS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/js/dom/01.js"></script>
+  </head>
+  <body>
+    <button onclick="changeBackground()">Change background</button>
+    <button onclick="increaseFont()">Increase font size</button>
+    <button onclick="colourBenefits()">Color benefits</button>
+    <button onclick="changeText()">Change text</button>
+    <header>
+      <h1 id="title">Artificial Intelligence</h1>
+      <nav>
+        <ul>
+          <li><a href="#definition" class="link">Definition</a></li>
+          <li><a href="#application" class="link">Application</a></li>
+          <li><a href="#advantages" class="link">Advantages</a></li>
+          <li><a href="#disadvantages" class="link">Disadvantages</a></li>
+        </ul>
+      </nav>
+    </header>
+<main>
+  <section id="definition" class="section">
+    <h2>Definition</h2>
+    <p>
+      Artificial Intelligence (AI) is a branch of computer science that deals with the development of algorithms and systems capable of performing tasks that typically require human intelligence. This includes abilities such as learning, reasoning, planning, translation, and pattern recognition.
+    </p>
+  </section>
+
+  <section id="application" class="section">
+    <h2>Application</h2>
+    <p>
+      The application of artificial intelligence is ubiquitous in today's world, spanning various industries including healthcare, finance, transportation, manufacturing, entertainment, and more. AI is used to develop intelligent systems for face recognition, product recommendations, finding optimal business solutions, and many other purposes.
+    </p>
+  </section>
+  <section id="advantages" class="section">
+    <h2>Advantages</h2>
+    <ul>
+      <li>Accelerating processes that typically require human interaction</li>
+      <li>Increasing accuracy and precision in task execution</li>
+      <li>
+        Facilitating decision-making based on vast amounts of data
+      </li>
+      <li>Increasing productivity and reducing costs</li>
+    </ul>
+  </section>
+  <section id="disadvantages" class="section">
+    <h2>Disadvantages</h2>
+    <ul>
+      <li>Risk of impacting jobs that can be automated</li>
+      <li>Potential for imperfections and errors in AI system performance</li>
+    </ul>
+  </section>
+
+  <section>
+    <h1>Adding a New Paragraph to the DOM</h1>
+    <div id="paragraphs">
+      <p>First paragraph</p>
+      <p>Second paragraph</p>
+    </div>
+  </section>
+</main>
+<button onclick="addParagraph()">Add paragraph</button>
+<script src="/js/dom/02.js"></script>
+<p id="add-text">
+        <button onclick="addText()">Add text</button>
+    </p>
+    <ul>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+    </ul>
+    <button onclick="addElement()">Add element</button>
+</body>
+</html>
